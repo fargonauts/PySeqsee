@@ -73,7 +73,7 @@ class Workspace(object):
     History.AddArtefact(anchored, ObjectType.WS_GROUP, "Initial creation")
     History.Note("Element Inserted")
     self.elements.append(anchored)
-    
+
 
   def InsertElements(self, integers):
     """Utility for adding lots of integers as elements."""
